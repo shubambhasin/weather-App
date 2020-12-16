@@ -6,44 +6,79 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Weather App</title>
     <script src="./working.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="style.css">
+    <script src="./working.js"></script>
 </head>
 
 <body>
 
-    <div class="main">
-        <h1>Weather App</h1>
+    <div class="header">
+        <br>
+        
+        
+        <h1 class="">Weather App</h1>
+
+        <br>
+        <br>
     </div>
-    <div class="location">
-        <span>Location:</span>
-        <h3 class="location-name"></h3>
+    <div class="header">
 
-        <span>Region:</span> 
-        <h3 class="region"></h3>
-        
-        <span>Temperature in C:</span>
-        <h3 class="temp_c"></h3>
-        
-        <span>Temperature in F</span>
-        <h3 class="temp_f"></h3>
-        
-        <span>Humidity:</span>
-        <h3 
-        class="humidity"></h3>
-        
-        <span>Sunrise:</span> 
-        <h3 class="sunrise"></h3>
-        
-        <span>Sunset:</span>
-        <h3 class="sunset"></h3>
-        
-        <span>Moonrise:</span>
-        <h3 class="moonrise"></h3>
-        
-        <span>Moon Phase:</span>
-        <h3 class="moonset"></h3>
-        <span>Moon Phase:</span>
-        <h3 class="moon_phase"></h3>
+    <input class="input-text" placeholder="Enter Location">
+    
+        <button>Search</button>
+       
 
+    </div>
+    <br>
+    <br>
+    <div class="main">
+       
+        <br><br>
+
+        <div class="location">
+            <i class="fa fa-location-arrow" aria-hidden="true"> </i>
+            <p>Present Location :</p>
+
+            <h3 class="location-name"></h3>
+            <p>, Region : </p>
+            <h3 class="region"></h3>
+        </div>
+        <br>
+
+        <ul class="no-bullet list-inline">
+            <li>Temperature: <span class="temp_c"></h3></span><span>°C</span></li>
+            <li>Temperature: <span class="temp_f"></span><span>°F</span></li>
+        </ul>
+        <br>
+
+        <ul class="no-bullet center">
+            <li> <span>Humidity:</span>
+                <h3 class="humidity"></h3>
+            </li>
+        </ul>
+
+        <ul class="no-bullet list-inline">
+            <li> <span>Sunrise:</span>
+                <h3 class="sunrise"></h3>
+            </li>
+            <li> <span>Sunset:</span>
+                <h3 class="sunset"></h3>
+            </li>
+            <li>
+                <span>Moonrise:</span>
+            <h3 class="moonrise"></h3>
+
+            </li>
+            <li>
+                <span>Moonset:</span>
+            <h3 class="moonset"></h3>
+
+            </li>
+        </ul>
+
+      
     </div>
 
 
